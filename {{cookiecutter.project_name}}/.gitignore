@@ -2,8 +2,9 @@
 .vscode/
 
 # data dir
-data/*
+data/*/*
 !data/raw/README.md
+!data/*/.gitkeep
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
