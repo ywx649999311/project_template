@@ -275,7 +275,7 @@ font.size     : 20.0
 ## See following links for more information on LaTex properties:
 ## https://matplotlib.org/tutorials/text/usetex.html
 ## https://scipy-cookbook.readthedocs.io/items/idx_matplotlib_typesetting.html
-text.usetex : True      ## use latex for all text handling. The following fonts
+text.usetex : False     ## use latex for all text handling. The following fonts
                         ## are supported through the usual rc parameter settings:
                         ## new century schoolbook, bookman, times, palatino,
                         ## zapf chancery, charter, serif, sans-serif, helvetica,
@@ -521,8 +521,8 @@ legend.fontsize       : 20
 ## See https://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure
 figure.titlesize    : 24        ## size of the figure title (``Figure.suptitle()``)
 #figure.titleweight : normal    ## weight of the figure title
-figure.figsize      : 10, 6     ## figure size in inches
-#figure.dpi         : 100       ## figure dots per inch
+figure.figsize      : 8, 6     ## figure size in inches
+figure.dpi         : 100       ## figure dots per inch
 #figure.facecolor   : white     ## figure facecolor
 #figure.edgecolor   : white     ## figure edgecolor
 #figure.frameon     : True      ## enable figure frame
